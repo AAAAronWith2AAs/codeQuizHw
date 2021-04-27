@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+nav {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  padding: 0;
+  margin: 1rem;
+}
+
+.cardOne {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80rem;
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 1rem 0.2rem;
+}
+
+.buttonGrid {
+  display: flex;
+  flex-direction: column;
+}
