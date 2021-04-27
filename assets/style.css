@@ -28,9 +28,14 @@ body {
   border-radius: 0.5rem;
   padding: 1rem;
   box-shadow: 0 0 1rem 0.2rem;
+  margin-top: 5rem;
 }
 
 .buttonGrid {
   display: flex;
   flex-direction: column;
+}
+
+.question {
+  font-size: 3rem;
 }
